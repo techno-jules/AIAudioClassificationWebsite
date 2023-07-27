@@ -1,0 +1,241 @@
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>About Audiority</title>
+   <link rel="icon" href="audioritylogoweb.jpg">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+</head>
+
+<body>
+  <section id="nav-bar">
+
+    <nav class="navbar navbar-expand-lg navbar-light ">
+      <a class="navbar-brand" href="https://audiority.techno-jules.repl.co/"><img src="audioritylogoweb.jpg">&nbsp; audiority</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+             <li class="nav-item active">
+            <a class="nav-link" href="https://audiority.techno-jules.repl.co/">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="problem.html"> PROBLEM</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="solutions.html
+              ">PAST SOLUTIONS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">ABOUT AUDIORITY</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="reflection.html">REFLECTIONS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="works.html">WORKS CITED</a>
+          </li>
+           
+          <li class="nav-item">
+            <a class="nav-link" href="#footer">CONTACT</a>
+          </li>
+
+        </ul>
+      </div>
+    </nav>
+  </section>
+  <!---banner-->
+  <section id="banner">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+
+          <p class="promo-title">ABOUT OUR SOLUTION</p>
+          <p><b>Audiority is a machine learning mobile app developed specifically to detect outdoor background noises and notify hearing impaired users.</b></p>
+          <p>It uses the latest technology and is free, accessible, and accurate.
+</p>
+          
+          <a href="https://youtu.be/5hBSNCN5eWs" target="_blank" ><img src="play.png" class="play-btn"><b>Watch Our Demo Video</b></a>
+        </div>
+        <div class="col-md-6 text-center">
+          <img src="audiorityappwhistory.jpg" class="img-fluid">
+        </div>
+      </div>
+    </div>
+    <img src="wave1.png" class="bottom-img">
+  </section>
+  <!--services-->
+    <section id="services">
+  <div class="container text-center">
+    <h1 class="title">WHAT AUDIORITY DOES</h1>
+<div class="row text-center">
+<div class="col-md-4 services">
+<img src = "audio.png" class="service-img">
+  <h4>Detects Outdoor Sounds</h4>
+  <p>Whether it's a moving vehicle or ambulance or an armed gunman, Audiority can help hearing impaired users who are walking, driving, or biking move out of the way safely by utilizing their phones' microphones to pick up on these sounds - <b>car horn, ambulance siren, and gunshot.</b> </p>
+  
+</div>
+<div class="col-md-4 services">
+<img src = "screen.png" class="service-img">
+  <h4>Displays Sounds on Screen</h4>
+  <p>After detection, Audiority outputs the name of the sound directly on the screen. In addition, a picture representation of the sound is  displayed in case English is not the user's main language. </p>
+  
+</div>
+ 
+  <div class="col-md-4 services">
+<img src = "history.png" class="service-img">
+  <h4>Records History of Sounds Detected</h4>
+  <p>Audiority also gives the user an option to record the history of the sounds detected. Users can see which sounds occurred at which exact time and date. This is important in case the user wants to report an accident, such as a car crash, or file a police report, such as for an armed person. </p>
+  
+</div>
+
+
+
+  
+</div>
+    <!--
+<button type="button" class="btn btn-primary">All Services</button>-->
+    
+  </div>
+
+
+    
+  </section>
+   <section id="services">
+  <div class="container text-center">
+    <h1 class="title">HOW AUDIORITY IS BUILT</h1>
+<div class="row text-center">
+<div class="col-md-4 services">
+<img src = "createml.png" class="service-img">
+  <h4>CreateML</h4>
+  <p>Apple framework I used for building, training, and optimizing Audiority's Audio Classification ML Model. It contains a custom convolutional neural network and is small enough (has a smaller number of parameters) to be deployed into the iOS App. In addition, I used the Kaggle dataset UrbanSound8K to train my model. The audio dataset is in the .wav format, including 929 siren, 429 horn, and 374 gunshot sounds. These sounds pose the most danger to people outside.</p>
+  
+</div>
+<div class="col-md-4 services">
+<img src = "swift.png" class="service-img">
+  <h4>Swift</h4>
+  <p>Apple's language I used to code the UI of the app (buttons, colors, words, etc). </p>
+  
+</div>
+ 
+  <div class="col-md-4 services">
+<img src = "xcode.png" class="service-img">
+  <h4>XCode</h4>
+  <p> Apple IDE I used to write Swift code in.</p>
+  
+</div>
+
+
+
+  
+</div>
+    <!--
+<button type="button" class="btn btn-primary">All Services</button>-->
+    
+  </div>
+
+
+    
+  </section>
+ 
+  <section id="services">
+  <div class="container text-center">
+    <h1 class="title">BENEFITS OF AUDIORITY </h1>
+<div class="row text-center">
+<div class="col-md-4 services">
+
+  <h4>It's Free & Built Conveniently.</h4>
+  <p>Because Audiority was developed with free resources/software, it will be available on the App Store as a free mobile app. Users only need to have an iPhone (1 billion users worldwide already own one). Because Audiority is built just using Apple's frameworks, integration, design, and deployment of the ML model is fast and easy. </p>
+  
+</div>
+<div class="col-md-4 services">
+
+  <h4>It's accessible & convenient to use.</h4>
+  <p>With just 3 buttons to press, Audiority is very easy to use. Users just need to press the start/stop recording button to have their phone's microphone start/stop detecting sounds. Second, users can press the check/clear history button to record the time/date of a sound detected. Lastly, users can choose to have their phone detect one, two, or all 3 of the sounds at once. </p>
+  
+</div>
+ 
+  <div class="col-md-4 services">
+
+  <h4>It's accurate, reliable, & lasts forever.</h4>
+  <p>My trained, edited, and optimized audio  model can detect and classify siren, horn, and gunshot sounds with a 90% accuracy every time. I have optimized the model enough that it could detect and output a sound category within 1 second. And because Audiority is an online app, it will not get damaged/deteriorate like a physical object (hearing aid) would.</p>
+  
+</div>
+
+
+
+  
+</div>
+    <!--
+<button type="button" class="btn btn-primary">All Services</button>-->
+    
+  </div>
+
+
+    
+  </section>
+  
+  
+ 
+ 
+  
+    <section id="footer">
+
+    <img src="wave2.png" class="footer-img">
+    <div class="container">
+     <div class="row">
+      <div class="col-md-4 footer-box">
+
+        <img src ="audioritylogoweb.jpg">
+        
+<p>Audiority. All Rights Reserved.</p>
+       
+<p>Contact Us or Subscribe to Our Newsletters:</p>
+      </div>
+
+         <div class="col-md-4 footer-box">
+
+           <p><b>CONTACT US</b></p>
+           <p>Whether you are an individual who has a question or a tech organization/company who is interested in sponsoring us or partnering with us, feel free to contact us below. 
+
+
+</p>
+            <p <i class="fa fa-map-marker"> </i>United States</p>
+           <p <i class="fa fa-envelope-o"> </i> juliah6169@gmail.com</p>
+
+         </div>
+
+   <div class="col-md-4 footer-box">
+
+           <p><b>SUBSCRIBE TO OUR NEWSLETTERS</b></p>
+     <p>Subscribe to receive the latest info and updates about Audiority:</p>
+           
+<a href="https://forms.gle/TAhCYKFMHPVVJkqG7" target="_blank" ><b>Subscribe</b></a>
+         </div>
+     </div>
+      <hr>
+      <p class="copyright">Website Developed By Julia Huang. Copyright © 2022.</p>
+    </div>
+  </section>
+  <!---smooth scroll-->
+  
+</body>
+
+</html>
